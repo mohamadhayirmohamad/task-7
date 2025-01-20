@@ -1,0 +1,214 @@
+
+
+.portfolioSection {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #2be8c9;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #7a7a7a;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background: none;
+    border: 2px solid #2be8c9;
+    color: #2be8c9;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .button:hover {
+    background-color:#2be8c9;
+    color: white;
+  }
+  
+  .active {
+    background-color:#2be8c9;
+    color: white;
+  }
+  
+
+  
+  .button {
+    background: none;
+    border: 2px solid #2be8c9;
+    color: #2be8c9;
+    padding: 8px 15px; 
+    border-radius: 15px; 
+    font-size: 0.9rem; 
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #2be8c9;
+    color: white;
+  }
+  
+  .active {
+    background-color: #2be8c9;
+    color: white;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px; 
+    justify-items: center; 
+  }
+  
+  
+  .gridItem {
+    overflow: hidden;
+    border-radius: 8px;
+    width: 95%; 
+  }
+  
+  .image {
+    height: 500px;
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .image:hover {
+    transform: scale(1.05);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/* footer strat  */
+
+
+.footer {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.brand {
+    font-weight: bold;
+    color: #000;
+}
+
+.icons {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    text-align: center;
+    color: #666;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.icon:hover {
+    color: #fff;
+    background-color: #00c6a3;
+    border-color: #00c6a3;
+}
+
+.link {
+    color: #00c6a3;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* زر الانتقال إلى الأعلى */
+.scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00c6a3;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.scrollTopBtn:hover {
+    background-color: #008f7a;
+    transform: scale(1.1);
+}
+
+
+
+
+/* end footer  */
+  
